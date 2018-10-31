@@ -12,7 +12,7 @@ export function fetchWeather( city ) {
     console.log( 'Request:', request );
 
     return {
-        type: 'FETCH_WEATHER',
+        type: FETCH_WEATHER,
         payload: request
     };
 }
